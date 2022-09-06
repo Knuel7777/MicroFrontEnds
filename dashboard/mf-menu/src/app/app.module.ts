@@ -1,16 +1,3 @@
-# MicroFrontEnds
-
-####Install Single SPA
-
-`npm i --global create-single-spa`
-
-###Crear un nuevo proyecto con Single SPA
-
-`create-single-spa`
-
-####Routing Angular
-
-```typescript
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -31,4 +18,3 @@ import { EmptyRouteComponent } from './empty-route/empty-route.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-```
